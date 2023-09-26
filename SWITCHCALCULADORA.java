@@ -20,7 +20,7 @@ public class SWITCHCALCULADORA {
             double numero2;
             double suma;   
             double resta;  
-            double multiplicacion;  
+            double multiplicacion;  //DEFINIMOS PARAMETROS- se puede poner en una linea como: double numero1,numero2,suma,resta,multiplicacion,division,resto
             double division;  
             double resto;  
             int operacion;
@@ -45,7 +45,7 @@ public class SWITCHCALCULADORA {
         
         System.out.println("ESCOJA OPERACION 1(suma), 2(resta),3(multiplicacion),4(division)");    
         Scanner leer3 = new Scanner (System.in);
-        operacion = leer3.nextInt();     
+        operacion = leer3.nextInt();     //establece que operacion
         
             switch (operacion){
                 case 1:
